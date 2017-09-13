@@ -1,12 +1,8 @@
-﻿  stdafx.cpp
-c:\users\nn麦田\source\repos\sudoku\sudoku\stdafx.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\users\nn麦田\source\repos\sudoku\sudoku\stdafx.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\users\nn麦田\source\repos\sudoku\sudoku\targetver.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  sudoku.cpp
+﻿  sudoku.cpp
 c:\users\nn麦田\source\repos\sudoku\sudoku\sudoku.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-c:\users\nn麦田\source\repos\sudoku\sudoku\sudoku.cpp(29): warning C4244: “初始化”: 从“std::chrono::system_clock::rep”转换到“unsigned int”，可能丢失数据
-c:\users\nn麦田\source\repos\sudoku\sudoku\sudoku.cpp(39): warning C4018: “<”: 有符号/无符号不匹配
-c:\users\nn麦田\source\repos\sudoku\sudoku\sudoku.cpp(73): warning C4244: “初始化”: 从“std::chrono::system_clock::rep”转换到“unsigned int”，可能丢失数据
-c:\users\nn麦田\source\repos\sudoku\sudoku\sudoku.cpp(127): warning C4715: “<lambda_35f243c47f9acc430fd6ceadf28fbfbf>::operator()”: 不是所有的控件路径都返回值
+c:\users\nn麦田\source\repos\sudoku\sudoku\sudoku.cpp(32): warning C4244: “初始化”: 从“std::chrono::system_clock::rep”转换到“unsigned int”，可能丢失数据
+c:\users\nn麦田\source\repos\sudoku\sudoku\sudoku.cpp(42): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\nn麦田\source\repos\sudoku\sudoku\sudoku.cpp(77): warning C4244: “初始化”: 从“std::chrono::system_clock::rep”转换到“unsigned int”，可能丢失数据
+c:\users\nn麦田\source\repos\sudoku\sudoku\sudoku.cpp(131): warning C4715: “<lambda_35f243c47f9acc430fd6ceadf28fbfbf>::operator()”: 不是所有的控件路径都返回值
   sudoku.vcxproj -> C:\Users\nn麦田\source\repos\sudoku\Debug\sudoku.exe
   sudoku.vcxproj -> C:\Users\nn麦田\source\repos\sudoku\Debug\sudoku.pdb (Partial PDB)

@@ -12,6 +12,9 @@
 #include <fstream>
 #include <time.h>
 #include <string>
+#include <stdio.h>
+#pragma warning(disable:4996)
+
 
 
 using namespace std;
@@ -49,7 +52,8 @@ bool is_number(string str)
 int main(int argc, char *argv[])
 {
 	ofstream ocout;
-	ocout.open("test.txt");
+	freopen("./sudoku.txt", "w", stdout);
+	//ocout.open("suduku.txt");
 
 	int scene[9][9] = { 0 };
 	int num1, ii;
@@ -133,10 +137,10 @@ int main(int argc, char *argv[])
 					for (int i(0); i < 9; i++)
 					{
 						for (int j : scene[i])
-							ocout << j << " ";
-						ocout << endl;
+							cout << j << " ";
+						cout << endl;
 					}
-					ocout << endl << endl;
+					cout << endl ;
 				}
 				return 0;
 
@@ -146,8 +150,9 @@ int main(int argc, char *argv[])
 
 	}
 
-	ocout << ("err") << endl;
+	cout << ("err") << endl;
 
-	ocout.close();
+	//ocout.close();
+	fclose(stdout);
 	return 0;
 }
